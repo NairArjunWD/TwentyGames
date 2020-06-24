@@ -4,10 +4,9 @@
     android:layout_height="match_parent"
     android:background="#f5e942">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
         <ImageView
@@ -19,7 +18,8 @@
             android:layout_weight="1"
             android:layout_centerHorizontal="true"/>
 
-        <TextView android:text="TWENTY GAMES"
+        <TextView
+            android:text="TWENTY GAMES"
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,9 +27,10 @@
             android:layout_centerHorizontal="true"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="40dp"/>
+            android:textSize="40sp"/>
 
-        <TextView android:text="From Tabletop To Retro Consoles"
+        <TextView
+            android:text="From Tabletop To Retro Consoles"
             android:id="@+id/tag1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,9 +38,10 @@
             android:layout_centerHorizontal="true"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
-        <TextView android:text="We Have Games For Everyone"
+        <TextView
+            android:text="We Have Games For Everyone"
             android:id="@+id/tag2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,7 +49,7 @@
             android:layout_centerHorizontal="true"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <ImageView
             android:id="@+id/tabletop"
@@ -68,7 +70,7 @@
             android:layout_marginTop="20dp"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView android:text="Los Angeles, CA, 91340"
             android:id="@+id/city"
@@ -78,7 +80,7 @@
             android:layout_centerHorizontal="true"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView android:text="M Tu W Th F"
             android:id="@+id/weekdays"
@@ -89,7 +91,7 @@
             android:layout_marginTop="50dp"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView android:text="8AM - 10PM"
             android:id="@+id/time1"
@@ -100,7 +102,7 @@
             android:layout_marginTop="5dp"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView android:text="Sat Sun"
             android:id="@+id/weekends"
@@ -111,7 +113,7 @@
             android:layout_marginTop="10dp"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView android:text="10AM - 11PM"
             android:id="@+id/time2"
@@ -122,7 +124,7 @@
             android:layout_marginTop="5dp"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView android:text="(310) 738-9225"
             android:id="@+id/phone"
@@ -134,7 +136,8 @@
             android:layout_marginBottom="20dp"
             android:textColor="#000"
             android:layout_weight="1"
-            android:textSize="20dp"/>
+            android:autoLink="phone"
+            android:textSize="20sp"/>
 
     </RelativeLayout>
 </ScrollView>
