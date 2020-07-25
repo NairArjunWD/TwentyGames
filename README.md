@@ -13,3 +13,6 @@ Address, time schedule and phone number is included.
 ### Bottom of App
 
 <img src="https://drive.google.com/uc?export=view&id=1m9VME0qMHElmom37ssgmw5gkARbB7x6e" height="500">
+
+### To Do
+ - Improve the styling
